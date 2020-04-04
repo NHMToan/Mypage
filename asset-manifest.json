@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mypage/static/css/main.038766bf.chunk.css",
+    "main.js": "/mypage/static/js/main.2e99f41b.chunk.js",
+    "main.js.map": "/mypage/static/js/main.2e99f41b.chunk.js.map",
+    "runtime-main.js": "/mypage/static/js/runtime-main.117f8d76.js",
+    "runtime-main.js.map": "/mypage/static/js/runtime-main.117f8d76.js.map",
+    "static/css/2.ad8fe80d.chunk.css": "/mypage/static/css/2.ad8fe80d.chunk.css",
+    "static/js/2.c7e1f55f.chunk.js": "/mypage/static/js/2.c7e1f55f.chunk.js",
+    "static/js/2.c7e1f55f.chunk.js.map": "/mypage/static/js/2.c7e1f55f.chunk.js.map",
+    "index.html": "/mypage/index.html",
+    "precache-manifest.7e18815a8fac8a816021070d11a51187.js": "/mypage/precache-manifest.7e18815a8fac8a816021070d11a51187.js",
+    "service-worker.js": "/mypage/service-worker.js",
+    "static/css/2.ad8fe80d.chunk.css.map": "/mypage/static/css/2.ad8fe80d.chunk.css.map",
+    "static/css/main.038766bf.chunk.css.map": "/mypage/static/css/main.038766bf.chunk.css.map",
+    "static/js/2.c7e1f55f.chunk.js.LICENSE.txt": "/mypage/static/js/2.c7e1f55f.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/mypage/static/media/avatar.808e8017.jpg",
+    "static/media/bg_pattern.png": "/mypage/static/media/bg_pattern.b86afb4f.png",
+    "static/media/App.css": "/mypage/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.117f8d76.js",
+    "static/css/2.ad8fe80d.chunk.css",
+    "static/js/2.c7e1f55f.chunk.js",
+    "static/css/main.038766bf.chunk.css",
+    "static/js/main.2e99f41b.chunk.js"
+  ]
+}
