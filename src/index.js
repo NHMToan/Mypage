@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
+import "./i18n";
+import { I18nextProvider } from "react-i18next";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>

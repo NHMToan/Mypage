@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
-import backgroundGraphich from "../assets/img/bg_pattern.png";
+import backgroundGraphich from "../assets/img/back4.png";
 import Profile from "../components/Profile";
-MyPage.propTypes = {};
 
 function MyPage(props) {
   useEffect(() => {
     document.body.style.backgroundColor = "grayscale(100%)";
-    // document.body.style.backgroundImage = "url(" + backgroundGraphich + ")";
+    document.body.style.backgroundImage = "url(" + backgroundGraphich + ")";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundSize = "cover";
   }, []);
   const childrenWrapper = {
     minHeight: "100vh",

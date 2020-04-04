@@ -48,5 +48,27 @@ $heading-color: rgba(0, 0, 0, 0.85);
     }
   }
 }
+
+.menu {
+  :global(.anticon) {
+    margin-right: 8px;
+  }
+  :global(.ant-dropdown-menu-item) {
+    min-width: 160px;
+  }
+}
+
+.language-dropdown {
+  vertical-align: top;
+  cursor: pointer;
+  > span {
+    font-size: 16px !important;
+    transform: none !important;
+    svg {
+      position: relative;
+      top: -1px;
+    }
+  }
+}
 @media (max-width: 375px) {
 }

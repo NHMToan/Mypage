@@ -8,9 +8,12 @@ import {
 } from "@ant-design/icons";
 import mypic from "../assets/img/avatar.jpg";
 import InfoCard from "./InfoCard";
+import { useTranslation } from "react-i18next";
+
 Profile.propTypes = {};
 
 function Profile(props) {
+  const { t, i18n } = useTranslation();
   const profileCard = () => {
     const groupActions = () => {
       return (
@@ -54,13 +57,13 @@ function Profile(props) {
             <Avatar alt="" size={150} src={mypic} />
             <div className="name">Minh Toan</div>
             <div className="info">
-              Developer{" "}
+              {t("profile_job_name_developer") + " "}
               <Button
                 type="link"
                 href="https://goo.gl/maps/xKsQZXvhck1adcKA6"
                 target="blank"
               >
-                Live in Dist 8, HCM city, Vietnam
+                {t("profile_living_address")}
               </Button>
             </div>
           </div>

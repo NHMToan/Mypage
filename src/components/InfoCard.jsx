@@ -1,23 +1,27 @@
 import React, { useState } from "react";
 import { Card } from "antd";
+import Language from "./Language";
+import { useTranslation } from "react-i18next";
 
 InfoCard.propTypes = {};
-const infoTabsList = [
-  {
-    key: "career",
-    tab: <span>Career Path</span>,
-  },
-  {
-    key: "education",
-    tab: <span>Education</span>,
-  },
-  {
-    key: "skills",
-    tab: <span>Skills</span>,
-  },
-];
+
 function InfoCard(props) {
+  const { t, i18n } = useTranslation();
   const [tabKey, setTabkey] = useState("career");
+  const infoTabsList = [
+    {
+      key: "career",
+      tab: <span>{t("info_tab_career_path")}</span>,
+    },
+    {
+      key: "education",
+      tab: <span>{t("info_tab_education")}</span>,
+    },
+    {
+      key: "skills",
+      tab: <span>{t("info_tab_skill")}</span>,
+    },
+  ];
   const renderChildrenByTabKey = (key) => {
     switch (key) {
       case "career":
@@ -40,6 +44,7 @@ function InfoCard(props) {
       }}
       tabList={infoTabsList}
       onTabChange={(key) => setTabkey(key)}
+      tabBarExtraContent={<Language />}
     >
       {renderChildrenByTabKey(tabKey)}
     </Card>
