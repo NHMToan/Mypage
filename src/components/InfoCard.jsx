@@ -2,34 +2,52 @@ import React, { useState } from "react";
 import { Card } from "antd";
 import Language from "./Language";
 import { useTranslation } from "react-i18next";
-
+import { FacebookOutlined } from "@ant-design/icons";
+import Icon from "./Icon/Icon";
+import Resume from "./Resume";
+import Contact from "./Contact";
 InfoCard.propTypes = {};
 
 function InfoCard(props) {
   const { t, i18n } = useTranslation();
-  const [tabKey, setTabkey] = useState("career");
+  const [tabKey, setTabkey] = useState("resume");
   const infoTabsList = [
     {
-      key: "career",
-      tab: <span>{t("info_tab_career_path")}</span>,
+      key: "resume",
+      tab: (
+        <span>
+          <Icon className="fa-address-card" style={{ marginRight: "10px" }} />
+          {t("info_tab_resume")}
+        </span>
+      ),
     },
     {
-      key: "education",
-      tab: <span>{t("info_tab_education")}</span>,
+      key: "skill",
+      tab: (
+        <span>
+          <Icon className="fa-code" style={{ marginRight: "10px" }} />
+          {t("info_tab_skill")}
+        </span>
+      ),
     },
     {
-      key: "skills",
-      tab: <span>{t("info_tab_skill")}</span>,
+      key: "contact",
+      tab: (
+        <span>
+          <Icon className="fa-map-marker-alt" style={{ marginRight: "10px" }} />
+          {t("info_tab_contact")}
+        </span>
+      ),
     },
   ];
   const renderChildrenByTabKey = (key) => {
     switch (key) {
-      case "career":
-        return "Career";
-      case "education":
-        return "education";
-      case "skills":
-        return "skills";
+      case "resume":
+        return <Resume />;
+      case "skill":
+        return "skill";
+      case "contact":
+        return <Contact />;
       default:
         return "";
     }
@@ -46,7 +64,9 @@ function InfoCard(props) {
       onTabChange={(key) => setTabkey(key)}
       tabBarExtraContent={<Language />}
     >
-      {renderChildrenByTabKey(tabKey)}
+      <div style={{ maxHeight: "500px", overflow: "auto" }}>
+        {renderChildrenByTabKey(tabKey)}
+      </div>
     </Card>
   );
 }
