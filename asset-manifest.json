@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mypage/static/css/main.51454abb.chunk.css",
-    "main.js": "/mypage/static/js/main.4752cfa0.chunk.js",
-    "main.js.map": "/mypage/static/js/main.4752cfa0.chunk.js.map",
+    "main.css": "/mypage/static/css/main.19be9508.chunk.css",
+    "main.js": "/mypage/static/js/main.cb3e75bf.chunk.js",
+    "main.js.map": "/mypage/static/js/main.cb3e75bf.chunk.js.map",
     "runtime-main.js": "/mypage/static/js/runtime-main.117f8d76.js",
     "runtime-main.js.map": "/mypage/static/js/runtime-main.117f8d76.js.map",
     "static/css/2.ad8fe80d.chunk.css": "/mypage/static/css/2.ad8fe80d.chunk.css",
-    "static/js/2.cb3290ed.chunk.js": "/mypage/static/js/2.cb3290ed.chunk.js",
-    "static/js/2.cb3290ed.chunk.js.map": "/mypage/static/js/2.cb3290ed.chunk.js.map",
+    "static/js/2.7c93c0d2.chunk.js": "/mypage/static/js/2.7c93c0d2.chunk.js",
+    "static/js/2.7c93c0d2.chunk.js.map": "/mypage/static/js/2.7c93c0d2.chunk.js.map",
     "index.html": "/mypage/index.html",
-    "precache-manifest.681c539c12c6b846ecd4ae07eee9f8c5.js": "/mypage/precache-manifest.681c539c12c6b846ecd4ae07eee9f8c5.js",
+    "precache-manifest.9af4a2acc2da6729de2ed2f16750cbc8.js": "/mypage/precache-manifest.9af4a2acc2da6729de2ed2f16750cbc8.js",
     "service-worker.js": "/mypage/service-worker.js",
     "static/css/2.ad8fe80d.chunk.css.map": "/mypage/static/css/2.ad8fe80d.chunk.css.map",
-    "static/css/main.51454abb.chunk.css.map": "/mypage/static/css/main.51454abb.chunk.css.map",
-    "static/js/2.cb3290ed.chunk.js.LICENSE.txt": "/mypage/static/js/2.cb3290ed.chunk.js.LICENSE.txt",
+    "static/css/main.19be9508.chunk.css.map": "/mypage/static/css/main.19be9508.chunk.css.map",
+    "static/js/2.7c93c0d2.chunk.js.LICENSE.txt": "/mypage/static/js/2.7c93c0d2.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/mypage/static/media/avatar.808e8017.jpg",
     "static/media/back4.png": "/mypage/static/media/back4.e36e163a.png",
     "static/media/App.css": "/mypage/static/media/glyphicons-halflings-regular.fa277232.woff"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.117f8d76.js",
     "static/css/2.ad8fe80d.chunk.css",
-    "static/js/2.cb3290ed.chunk.js",
-    "static/css/main.51454abb.chunk.css",
-    "static/js/main.4752cfa0.chunk.js"
+    "static/js/2.7c93c0d2.chunk.js",
+    "static/css/main.19be9508.chunk.css",
+    "static/js/main.cb3e75bf.chunk.js"
   ]
 }
